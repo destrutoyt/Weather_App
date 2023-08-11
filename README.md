@@ -10,7 +10,7 @@ While the program obtains real-time weather data, it only gets it from an specif
    - datetime
    - request
    - pytz
-- **! IMPORTANT !** This program requires an API key which can be obtain by visiting ![OpenWeatherMaps](https://openweathermap.org/api)
+- **! IMPORTANT !** This program requires an API key which can be obtain by visiting -> https://openweathermap.org/api
 # Features
 - Extract real-time weather data including temperature, pressure, wind speed, condition, and humidity
 - Shows current time on the specific location
