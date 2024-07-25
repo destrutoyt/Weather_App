@@ -1,29 +1,33 @@
 # Project Title
-Weather App (Python + GUI) - 2.0
+Weather App (Python + GUI + Weather Data Retrieval) v3.0
 # Description
-The Weather App is a program developed in Python which gets weather information from **OpenWeatherMaps** and then displays it on a easy-to-read GUI.
-While the program obtains real-time weather data, it only gets it from an specific location. This is an early version of the project.
+The Weather App is a program developed in Python that gets weather information from **OpenWeatherMaps** and then displays it on an easy-to-read GUI.
+While the program obtains real-time weather data, it only gets it from a specific location (Customizable in source code).
 # Dependencies
 - Libraries:
    - Tkinter
    - PIL
    - datetime
    - request
-   - pytz
-- **! IMPORTANT !** The API being used has limited uses and it is better to get one free on OpenWeatherMaps
+- **! IMPORTANT !** The API being used has limited uses and it is better to get one for free on OpenWeatherMap
 # Features
 - Extract real-time weather data including temperature, pressure, wind speed, condition, and humidity
-- Shows current time on the specific location
-- Displays custom alerts/advices depending on weather conditions. (NOTE: This alerts are custom-made and not officially an alert from the National Weather Services)
-- Simple GUI which will display weather data and icons according to the current condition. (e.g, if sunny, there's going to be a sun icon showing up)
-- API verification which will help you valid your API key. (If not, the program can't access weather data)
+- Displays custom alerts/advice depending on weather conditions. (NOTE: These alerts are custom-made and not officially an alert from the National Weather Services)
+- A simple GUI that displays weather data and icons according to the current condition.
+- Auto API Verification / Testing
+- Log text file that includes any issues, warnings, or useful information for debugging purposes
 # TO-DO / UPCOMING FEATURES
-This current version of the project is an early stage and bugs/errors can be expected. However, there is an ongoing development to improve many parts of the code
-to include features, a nicer GUI, cleaner code, and much more. Each new version will have it's own post which will contain all changes performed in the version.
+This project is still under development, and it will be updated often to accomplish its objectives. Every update will ALWAYS include:
+- Bug fixes (Including grammar, logic, GUI elements, etc)
+- Cleaner source code
+- GUI design improvements
 
-With nothing more to say, let me enlight you with some planned features coming next version:
-- Develop a search tool to get accurate weather data and time zone from any country
-- Optimize code
+As for new features planned, this is what is going to be developed in the upcoming days (Ascending items are a priority):
+
+1. A search tool that can be used to retrieve data from ANYWHERE in the world
+2. New and improved GUI for easier view
+3. Weather predictions
+4. Conversion to an actual APP (Windows Only for now) - Possible final version
 
 
-I hope you enjoy using my Weather App and remember that any feedback is greatly appreciate it :)!
+I hope you enjoy using my Weather App and remember that any feedback is greatly appreciated :)!
