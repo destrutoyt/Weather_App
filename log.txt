@@ -1,0 +1,6 @@
+
+Date Session: 2024-07-24
+DEBUG: API verification passed. Program can be used
+DEBUG: AIQ: N/A
+DEBUG: Air Quality value not found: invalid literal for int() with base 10: 'N/A'
+DEBUG: Data successfully extracted!
