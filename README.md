@@ -1,33 +1,46 @@
-# Project Title
-Weather App (Python + GUI + Weather Data Retrieval) v3.0
-# Description
-The Weather App is a program developed in Python that gets weather information from **OpenWeatherMaps** and then displays it on an easy-to-read GUI.
-While the program obtains real-time weather data, it only gets it from a specific location (Customizable in source code).
-# Dependencies
-- Libraries:
-   - Tkinter
-   - PIL
-   - datetime
-   - request
-- **! IMPORTANT !** The API being used has limited uses and it is better to get one for free on OpenWeatherMap
-# Features
-- Extract real-time weather data including temperature, pressure, wind speed, condition, and humidity
-- Displays custom alerts/advice depending on weather conditions. (NOTE: These alerts are custom-made and not officially an alert from the National Weather Services)
-- A simple GUI that displays weather data and icons according to the current condition.
-- Auto API Verification / Testing
-- Log text file that includes any issues, warnings, or useful information for debugging purposes
-# TO-DO / UPCOMING FEATURES
-This project is still under development, and it will be updated often to accomplish its objectives. Every update will ALWAYS include:
-- Bug fixes (Including grammar, logic, GUI elements, etc)
-- Cleaner source code
-- GUI design improvements
+# Weather App (Python + GUI + Weather Data Retrieval) v3.0
 
-As for new features planned, this is what is going to be developed in the upcoming days (Ascending items are a priority):
+## Description
 
-1. A search tool that can be used to retrieve data from ANYWHERE in the world
-2. New and improved GUI for easier view
-3. Weather predictions
-4. Conversion to an actual APP (Windows Only for now) - Possible final version
+The Weather App is a Python program that retrieves weather information from OpenWeatherMap and displays it in an easy-to-read graphical user interface (GUI). Currently, the app fetches real-time weather data for a specific location, which can be customized in the source code.
+
+> ⚠️ **Note:** This repository is no longer actively maintained, as I am shifting my focus towards web development and quality assurance (QA). However, the app remains fully functional and available for use or reference.
+
+---
+
+## Dependencies
+
+- Tkinter  
+- PIL (Pillow)  
+- datetime  
+- requests  
+
+> **Important:** The OpenWeatherMap API used here has request limits. It's recommended to get your own free API key from [OpenWeatherMap](https://openweathermap.org/api).
 
 
-I hope you enjoy using my Weather App and remember that any feedback is greatly appreciated :)!
+## Features
+
+- Retrieves real-time weather data, including temperature, pressure, wind speed, condition, and humidity  
+- Displays custom alerts and advice based on weather conditions (Note: These alerts are user-created, not official warnings from National Weather Services)  
+- Simple GUI showing weather data with condition-specific icons  
+- Automatic API verification and testing  
+- Log file for debugging with warnings, issues, and useful information  
+
+## Planned Features (When the Project Was Active)
+
+*Note: Since active development has ceased, these features remain ideas for future implementation:*
+
+- Search tool to retrieve weather data for any location worldwide  
+- Improved, more user-friendly GUI  
+- Weather predictions and forecasts  
+
+> **Note:** There is a SLIGHT chance that these features are developed and deployed as a massive, but final build. However, contributions are encouraged :D!
+
+## Maintenance & Updates
+
+While this project was under active development, updates included bug fixes, cleaner code, and GUI improvements. As mentioned, I am no longer updating this repository regularly due to my focus shift toward web development and QA.  
+
+## Feedback
+
+Thank you for using the Weather App!  
+Any feedback or contributions are still appreciated and welcome.
